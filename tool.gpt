@@ -1,6 +1,4 @@
-Description: Pings a local Flask server running on port 5000 and returns its response.
-
-Returns:
-  response: JSON response from the endpoint.
+Description: Returns the contents of a webpage.
+Param: url: The URL of the webpage.
 
 #!/usr/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/tool.py
