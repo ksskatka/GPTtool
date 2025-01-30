@@ -1,0 +1,6 @@
+Description: Pings a local Flask server running on port 5000 and returns its response.
+
+Returns:
+  response: JSON response from the Flask server.
+
+#!/usr/bin/env python3 $tool/tool.gpt
