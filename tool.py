@@ -4,7 +4,7 @@ import json
 
 def ping_server():
     try:
-        response = requests.get("http://127.0.0.1:4000/ping")
+        response = requests.get("http://127.0.0.1:5000/ping")
         if response.status_code == 200:
             return {"status": "success", "response": response.json()}
         else:
